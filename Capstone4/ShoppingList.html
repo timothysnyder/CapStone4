@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+
+	<link href="StyleSheet1.css" rel="stylesheet" />
+
+	<style>
+		body {
+			background-color: powderblue;
+		}
+
+		h1 {
+			color: blue;
+		}
+
+		p {
+			color: red;
+		}
+	</style>
+
+	<style>
+		table, th, td {
+			border: 1px solid black;
+		}
+	</style>
+
+
+</head>
++
+<body>
+	<script src="JavaScript.js"></script>
+	<center>
+		<h1 style="color:blue;">Your Shopping List</h1>
+		<h2>
+			Your Shopping List
+
+		</h2>
+	</center>
+
+	<table style="width:100%">
+		<tr>
+			<th>Item</th>
+			<th>Price</th>
+			<th>Add to Cart</th>
+		</tr>
+
+		<tr>
+			<td>Milk</td>
+			<td>$2.99</td>
+			<td><button class="Button" onclick="addItem('Milk', 2.99)">Add to Cart</button></td>
+		</tr>
+		<tr></tr>
+
+		<tr>
+			<td>Eggs</td>
+			<td>$1.99</td>
+			<td><button class="Button" onclick="addItem('Eggs', 1.99)">Add to Cart</button></td>
+		</tr>
+		<tr></tr>
+
+		<tr>
+			<td>The Notebook DVD</td>
+			<td>$19.99</td>
+			<td><button class="Button" onclick="addItem('The Notebook', 19.99)">Add to Cart</button></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td>Beer</td>
+			<td>$12.99</td>
+			<td><button class="Button" onclick="addItem('Beer', 12.99)">Add to Cart</button></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td>Vodka</td>
+			<td>$22.99</td>
+			<td><button class="Button" onclick="addItem('Vodka', 22.99)">Add to Cart</button></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td>Bloody Mary Mix</td>
+			<td>$7.99</td>
+			<td><button class="Button" onclick="addItem('Bloody Mary Mix', 7.99)">Add to Cart</button></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td>Cranberry Juice</td>
+			<td>$4.99</td>
+			<td><button class="Button" onclick="addItem('Cranberry Juice', 4.99)">Add to Cart</button></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td>Bourbon</td>
+			<td>$45.00</td>
+			<td><button class="Button" onclick="addItem('Bourbon', 45.00)">Add to Cart</button></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td>2 Litre Coke</td>
+			<td>$1.99</td>
+			<td><button class="Button" onclick="addItem('2 Litre Coke', 1.99)">Add to Cart</button></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td>Tequlia</td>
+			<td>$34.49</td>
+			<td><button class="Button" onclick="addItem('Tequlia', 34.49)">Add to Cart</button></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td>Margirata Mix</td>
+			<td>$4.79</td>
+			<td><button class="Button" onclick="addItem('Margirita Mix', 4.79)">Add to Cart</button></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td>Margirata Salt Dish</td>
+			<td>$6.99</td>
+			<td><button class="Button" onclick="addItem('Margirata Salt Dish', 9.99)">Add to Cart</button></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td>Frozen Pizza</td>
+			<td>$5.49</td>
+			<td><button class="Button" onclick="addItem('Frozen Pizza', 5.49)">Add to Cart</button></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td>Chicken Pot Pie</td>
+			<td>$2.49</td>
+			<td><button class="Button" onclick="addItem('Chicken Pot Pie', 24.99)">Add to Cart</button></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td>Propane Tank Refil</td>
+			<td>$19.99</td>
+			<td><button class="Button" onclick="addItem('Propane Tank Refil', 19.99)">Add to Cart</button></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td>Merlot</td>
+			<td>$24.99</td>
+			<td><button class="Button" onclick="addItem('Merlot', 24.99)">Add to Cart</button></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td>Box of Wine</td>
+			<td>$7.99</td>
+			<td><button class="Button" onclick="addItem('Wine', 7.99)">Add to Cart</button></td>
+		</tr>
+
+
+	</table>
+	<br /><br />
+	<h3>Your cart</h3>
+	<table id="cart">
+		<tr>
+			<th>Name</th>
+			<th>Price</th>
+		</tr>
+	</table>
+	<br />
+	<p id="total"></p>
+
+</body>
+</html>

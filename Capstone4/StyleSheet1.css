@@ -1,0 +1,24 @@
+﻿h1 {
+	color: orange;
+	text-align: center;
+	font-family: 'Comic Sans MS';
+}
+
+h2 {
+	color: orangered;
+	text-align: center;
+	font-family: 'Comic Sans MS';
+}
+
+h3 {
+	color: orange;
+	text-align: center;
+	font-family: 'Comic Sans MS';
+}
+
+
+.orangeFont {
+	color: orange;
+	text-align: center;
+	font-family: 'Comic Sans MS';
+}
